@@ -1,0 +1,7 @@
+vendor
+bricks
+
+*.test.*
+.vscode
+
+.DS_Store

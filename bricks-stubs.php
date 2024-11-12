@@ -4621,3 +4621,60 @@ namespace {
 	function bricks_update_nav_menu_item( $menu_id, $menu_item_db_id ) {
 	}
 }
+
+namespace {
+	/**
+	 * Builder check
+	 *
+	 * @since 1.0
+	 */
+	function bricks_is_builder() {}
+
+	function bricks_is_builder_iframe() {
+	}
+
+	function bricks_is_builder_main() {
+	}
+
+	function bricks_is_frontend() {
+	}
+
+	/**
+	 * Is AJAX call check
+	 *
+	 * @since 1.0
+	 */
+	function bricks_is_ajax_call() {}
+
+	/**
+	 * Is WP REST API call check
+	 *
+	 * @since 1.5
+	 */
+	function bricks_is_rest_call() {}
+
+	/**
+	 * Is builder call (AJAX OR REST API)
+	 *
+	 * @since 1.5
+	 */
+	function bricks_is_builder_call() {}
+
+
+	/**
+	 * Render dynamic data tags inside of a content string
+	 *
+	 * Example: Inside an executing Code element, custom plugin, etc.
+	 *
+	 * Academy: https://academy.bricksbuilder.io/article/function-bricks_render_dynamic_data/
+	 *
+	 * @since 1.5.5
+	 *
+	 * @param string $content The content (including dynamic data tags).
+	 * @param int    $post_id The post ID.
+	 * @param string $context text, image, link, etc.
+	 *
+	 * @return string
+	 */
+	function bricks_render_dynamic_data( $content, $post_id = 0, $context = 'text' ) {}
+}
